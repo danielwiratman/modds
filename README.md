@@ -1,6 +1,7 @@
 # Motorcycle Drowsiness Detection System
 
 ## Our Team:
+- Daniel Wiratman (Me)
 - Filipus Dani Astono
 - Pegasus Violin Surjaningtyas
 
@@ -15,6 +16,10 @@ CSRT tracker adalah implementasi C++ dari CSR-DCF (Channel and Spatial Reliabili
 Correlation Filter). Algoritma yang diusulkan memberikan kinerja waktu nyata yang dapat dijalankan
 pada perangkat yang disematkan. Untuk prototipe MoDDS, kami menggunakan papan pengembang
 Raspberry Pi 4B sebagai prosesor utama yang memproses gambar dari Raspberry Pi Camera V2.1.
+
+## Libraries Used
+- OpenCV 4.0 (ROI Detection, CSRT Tracker, SLC Clustering)
+- Numpy
 
 ## Images
 
